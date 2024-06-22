@@ -1,0 +1,8 @@
+#!/bin/bash
+reset
+BIG="sudo apt -y install "
+while read FILE; do
+    BIG+=" $(echo $FILE-dev)"
+done < prerequisites.list
+echo $BIG
+

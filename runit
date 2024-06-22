@@ -1,0 +1,2 @@
+goesrecv -v -i 1 -c ./goesrecv.conf
+
